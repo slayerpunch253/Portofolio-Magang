@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Bayu Akbar Indiarto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-6 py-4 bg-white shadow-md dark:bg-gray-800 sticky top-0 z-50">
+    <h1 class="text-xl font-bold">Portofolio</h1>
+    <button id="theme-toggle" class="px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
+      🌙
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <img src="../assets/IMG_5857.jpg" alt="Foto Bayu" class="w-40 h-40 rounded-full shadow-lg mb-6 object-cover" data-aos="zoom-in">
+    <h2 class="text-4xl font-bold mb-4" data-aos="fade-up">Halo, Saya Bayu</h2>
+    <p class="max-w-2xl text-lg mb-6" data-aos="fade-up" data-aos-delay="200">
+      Calon profesional IT yang memiliki ketertarikan dan keahlian dalam jaringan komputer, keamanan sistem, serta pemrograman.
+    </p>
+    <a href="#contact" class="px-6 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 shadow transition" data-aos="zoom-in">
+      Hubungi Saya
+    </a>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="py-20 px-6 bg-gray-50 dark:bg-gray-800" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-4">Tentang Saya</h3>
+      <p class="text-lg leading-relaxed">
+         Saya, Bayu Akbar Indiarto, seorang calon profesional IT yang memiliki ketertarikan dan
+         keahlian dalam jaringan komputer, keamanan sistem, serta pemrograman. Saya ingin
+         mengembangkan keterampilan teknis dan mendapatkan pengalaman praktis melalui
+         program magang di lingkungan kerja yang profesional. 
+      </p>
+    </div>
+  </section>
+
+  <!-- Pengalaman -->
+  <section id="experience" class="py-20 px-6" data-aos="fade-right">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-4">Pengalaman Kerja</h3>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <h4 class="font-semibold text-lg mb-2">2 Maret - 30 April 2020 | Praktik Kerja Lapangan - DPR RI</h4>
+        <ul class="list-disc list-inside text-sm space-y-1">
+          <li>Pengembangan fasilitas pusat data dan jaringan komputer</li>
+          <li>Perbaikan dan pemeliharaan sarana & prasarana IT</li>
+          <li>Penyusunan standarisasi tata kelola teknologi informasi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pendidikan -->
+  <section id="education" class="py-20 px-6 bg-gray-50 dark:bg-gray-800" data-aos="fade-left">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-4">Pendidikan</h3>
+      <ul class="space-y-4 text-lg">
+        <li><strong>2018 - 2021</strong> | SMK PGRI 11 CILEDUG - Teknik Komputer & Jaringan</li>
+        <li><strong>2022 - 2026</strong> | Universitas Bina Sarana Informatika - Informatika</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 px-6" data-aos="zoom-in">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-4">Skills</h3>
+      <div class="flex flex-wrap gap-3">
+        <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm">IT Support</span>
+        <span class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm">Networking</span>
+        <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm">Programming</span>
+        <span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm">Web Development</span>
+        <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm">Cybersecurity</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 bg-gray-50 dark:bg-gray-800" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-lg">
+      <h3 class="text-3xl font-bold mb-4">Kontak</h3>
+      <p>Email: <a href="mailto:bayuakbarindiarto9@gmail.com" class="text-blue-500 hover:underline">bayuakbarindiarto9@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/chillguys24_" target="_blank" class="text-blue-500 hover:underline">@chillguys24_</a></p>
+      <p>WhatsApp: <a href="https://wa.me/628998900714" target="_blank" class="text-blue-500 hover:underline">+62 899-8900-714</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-white dark:bg-gray-800 shadow mt-10">
+    <p>© 2025 Bayu Akbar Indiarto</p>
+  </footer>
+
+  <script>
+    // Init AOS
+    AOS.init({ duration: 1000 });
+
+    // Dark Mode Toggle
+    const toggle = document.getElementById("theme-toggle");
+    toggle.addEventListener("click", () => {
+      document.documentElement.classList.toggle("dark");
+      toggle.textContent =
+        document.documentElement.classList.contains("dark") ? "☀️" : "🌙";
+    });
+  </script>
+</body>
+</html>
